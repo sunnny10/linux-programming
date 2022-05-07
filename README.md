@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Linux를 이용한 서버 설치 방법
 
-You can use the [editor on GitHub](https://github.com/sunnny10/linux-programming/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 1. Apache-Tomcat 연동, app deploy
 
 ```markdown
-Syntax highlighted code block
+## 개념 
 
-# Header 1
-## Header 2
-### Header 3
+![image](https://user-images.githubusercontent.com/100884647/167235208-b5df6884-bd1e-427b-acab-cdb0aafa27a5.png)
 
-- Bulleted
-- List
+- Apache 
+    아파치 소프트웨어 재단에서 만든 Web Server. 
+    정적 데이터 요청을 처리하는 데 적합하다.
+    
+- Tomcat
+    아파치 소프트웨어 재단에서 유지하는 서블릿 컨테이너만 있는 웹 애플리케이션 서버(WAS).
+    동적인 정보를 처리한다.
+    
+- Mod_jk
+    Apache(WS)와 Tomcat(WAS)을 연동하기 위한 Module이다.
+    mod_jk는 Tomcat의 일부로 배포 되지만, Apache(WS)에 설치되어야 한다.
+    
 
-1. Numbered
-2. List
+![image](https://user-images.githubusercontent.com/100884647/167235627-8e000551-b699-45ea-b66c-6cefe0b01fc6.png)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Apache-Tomcat 설치 및 연동, app deploy하는 방법
+<iframe width="949" height="534" src="https://www.youtube.com/embed/dbIq0sKl5nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sunnny10/linux-programming/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
