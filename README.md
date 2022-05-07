@@ -8,16 +8,15 @@
 
 ![image](https://user-images.githubusercontent.com/100884647/167235208-b5df6884-bd1e-427b-acab-cdb0aafa27a5.png)
 
-- Apache<br><br>
+- Apache<br>
     아파치 소프트웨어 재단에서 만든 Web Server.  
-    정적 데이터 요청을 처리하는 데 적합하다.
-<br>     
-- Tomcat<br><br>
+    정적 데이터 요청을 처리하는 데 적합하다.<br>   
+        
+- Tomcat<br>
     아파치 소프트웨어 재단에서 유지하는 서블릿 컨테이너만 있는 웹 애플리케이션 서버(WAS).
-    동적인 정보를 처리한다.
-    <br>
+    동적인 정보를 처리한다.<br>
     
-- Mod_jk<br><br>
+- Mod_jk<br>
     Apache(WS)와 Tomcat(WAS)을 연동하기 위한 Module이다.
     mod_jk는 Tomcat의 일부로 배포 되지만, Apache(WS)에 설치되어야 한다.<br>
     
@@ -75,13 +74,13 @@
 
 ### 개념
 
-- 구글 클라우드 플랫폼(Google Cloud Platform, GCP)<br><br>
+- 구글 클라우드 플랫폼(Google Cloud Platform, GCP)<br>
     구글의 클라우드 컴퓨팅 서비스<br>
 
 - 클라우드 플랫폼<br>
     클라우드(인터넷)를 통해 가상화된 컴퓨팅 리소스를 제공하는 것<br>
         
-- 구글 컴퓨트 엔진(Compute engine)<br><br>
+- 구글 컴퓨트 엔진(Compute engine)<br>
     아마존 EC2와 비슷한 가상 머신을 제공하는 IaaS(Infrastructure as a Service) 서비스<br>
        
 <br>    
