@@ -13,11 +13,11 @@
     정적 데이터 요청을 처리하는 데 적합하다.<br>   
         
 - Tomcat<br>
-    아파치 소프트웨어 재단에서 유지하는 서블릿 컨테이너만 있는 웹 애플리케이션 서버(WAS).
+    아파치 소프트웨어 재단에서 유지하는 서블릿 컨테이너만 있는 웹 애플리케이션 서버(WAS).<br>
     동적인 정보를 처리한다.<br>
     
 - Mod_jk<br>
-    Apache(WS)와 Tomcat(WAS)을 연동하기 위한 Module이다.
+    Apache(WS)와 Tomcat(WAS)을 연동하기 위한 Module이다.<br>
     mod_jk는 Tomcat의 일부로 배포 되지만, Apache(WS)에 설치되어야 한다.<br>
     
     
@@ -36,10 +36,12 @@
 
 ### 개념
 
-- Oracle Weblogic<br><br>
+- Oracle Weblogic<br>
     오라클이 개발한 자바 EE 웹 애플리케이션 서버.
   <br>
   
+  
+  <br>
 ### 구성요소
 
 ![image](https://user-images.githubusercontent.com/100884647/167236150-9f1de6dc-654f-4a79-bdf0-a40df8547238.png)
