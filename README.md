@@ -2,7 +2,6 @@
 
 ### 1. Apache-Tomcat 연동, app deploy
 
-```markdown
 ## 개념 
 
 ![image](https://user-images.githubusercontent.com/100884647/167235208-b5df6884-bd1e-427b-acab-cdb0aafa27a5.png)
@@ -25,5 +24,4 @@
 ## Apache-Tomcat 설치 및 연동, app deploy하는 방법
 <iframe width="949" height="534" src="https://www.youtube.com/embed/dbIq0sKl5nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    
-```
 
